@@ -4,10 +4,9 @@ program-id. Miniproject.
 environment division.
 input-output section.
 file-control.
-                select vaccination-file
-                    assign to
-            "C:\Users\Desktop\COBOL\vaccination.txt"
-                    organization is line sequential.
+    select vaccination-file
+    assign to "C:\Users\Desktop\COBOL\vaccination.txt"
+    organization is line sequential.
 
 configuration section.
 
